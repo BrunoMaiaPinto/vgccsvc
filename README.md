@@ -8,6 +8,7 @@ Features
 Select a CSV file exported from VGCollect.com using a file dialog.
 
 Convert the CSV into an Excel file (VGCollection.xlsx) with the following columns:
+
 Index: Sequential numbering of games.
 
 Game: Name of the video game.
