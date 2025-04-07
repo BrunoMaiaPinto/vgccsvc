@@ -1,7 +1,9 @@
 Video Game Collection CSV Converter
 
-Overview
-This Python script provides a simple graphical user interface (GUI) to convert CSV files exported from VGCollect.com into a formatted Excel spreadsheet. If you keep track of your video game collection on VGCollect.com and want a spreadsheet of your collection, this tool helps you transform the data into an organized .xlsx file with cleaned-up platform names and proper column formatting.
+This Python script provides a simple graphical user interface (GUI) to convert CSV files exported from VGCollect.com into a formatted Excel spreadsheet. 
+
+If you keep track of your video game collection on VGCollect.com and want a spreadsheet of your collection, this tool helps you transform the data into an organized .xlsx file with cleaned-up platform names and proper column formatting.
+
 Features
 Select a CSV file exported from VGCollect.com using a file dialog.
 
