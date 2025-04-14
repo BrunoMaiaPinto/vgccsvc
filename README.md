@@ -18,3 +18,5 @@ Platform: Platform name with bracketed text (e.g., [USA]) removed.
 Format the Excel file with adjusted column widths for better readability.
 
 Display success message upon conversion.
+
+![Captura de ecrã 2025-04-14 215253](https://github.com/user-attachments/assets/15a0dfce-7490-4139-be5f-ff975bad08fb)
