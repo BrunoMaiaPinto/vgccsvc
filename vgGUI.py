@@ -2,6 +2,7 @@ import tkinter as tk
 from tkinter import filedialog as fd
 import pandas as pd
 import re
+import os
 
 root = tk.Tk()
 root.title('CSV Converter')
@@ -17,7 +18,7 @@ def selectFile():
         title='Select the CSV file',
         initialdir='',
         filetypes=[("CSV Files", "*.csv")])
-  fileName = tk.Label(root, font=("Arial", 12), text=fileCsv)
+  fileName = tk.Label(root, font=("Arial", 12), text=os.path.basename(fileCsv))
   fileName.pack(pady=10)
   
 selectBtn = tk.Button(root, text='Select', command=selectFile)
@@ -43,7 +44,7 @@ def converter():
       worksheet.set_column('B:B', 60) 
       worksheet.set_column('C:C', 21)
   
-  sucess = tk.Label(root, font=("Arial", 12), text='File converted', fg="green")
+  sucess = tk.Label(root, font=("Arial", 12), text='File successfully converted!', fg="green")
   sucess.pack(pady=10)
     
 converterBtn = tk.Button(root, text='Convert', command=converter)
